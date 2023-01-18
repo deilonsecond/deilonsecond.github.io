@@ -1,0 +1,328 @@
+
+// HEADER
+// =========================================
+header {
+    height: 100vh;
+    background-image: url(../images/header-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    font-family: Inika;
+
+    ul {
+        background-color: #FFF;
+        height: 42px;
+        border-radius: 5px;
+    }
+
+    ul li a {
+        color: #000;
+        text-decoration: none;
+        font-size: 16px;
+    }
+
+    .welcome-section {
+        margin-top: 120px;
+        color: #FFF;
+
+        h1 {
+            font-size: 64px;
+            line-height: 0.6;
+        }
+        @media screen and (min-width: 992px) and (max-width: 1199px) { 
+            h1 {
+                font-size: 55px;
+            }    
+        }
+
+        .business-tagline {
+            font-size: 24px;
+        }
+        @media screen and (min-width: 992px) and (max-width: 1199px) { 
+            .business-tagline {
+                display: block !important;
+            }
+        }
+    }
+
+}
+
+
+
+// COMPANY
+// =========================================
+main {
+
+    font-family: 'Inria Sans';
+
+    .main-sections {
+        padding-bottom: 40px;
+
+        .h1-section {
+            font-family: Inika;
+            font-size: 24px;
+            color: #727272;
+        }
+    }
+
+    
+    .right-description {
+        h2 {
+            font-weight: 700;
+            font-size: 24px;
+        }
+        p {
+            font-weight: 400;
+            font-size: 18px;
+            margin-bottom: 15px; /* between paragraphs */
+        }
+    }
+    
+    .mission-vision {
+        
+        .right-description p {
+            font-size: 20px;
+        }
+
+    }
+
+    #services {
+        background-color: #F2F2F2;
+    }
+
+    .services-detail {
+
+        .services-p {
+            font-size: 20px;
+            padding: 10px 40px;
+        }
+
+    }
+
+    .featured-services {
+        margin-top: 100px;
+      h2 {
+        font-size: 24px;
+        font-weight: 700;
+      }
+
+      .featured-product {
+        width: 100%;
+        height: 350px;
+        background: #FFF;
+        border-radius: 40px;
+        padding: 40px 50px;
+
+        box-shadow: 4px 10px 72px -17px rgba(72,107,198,0.28);
+        -webkit-box-shadow: 4px 10px 72px -17px rgba(72,107,198,0.28);
+        -moz-box-shadow: 4px 10px 72px -17px rgba(72,107,198,0.28);
+        
+        .featured-product-title {
+            font-size: 20px;
+            font-weight: 700;
+        }
+        .featured-product-img {
+            width: 120px;
+            height: 120px;
+            border-radius: 30px;
+            background-size: cover;
+            background-position: center center;
+            background-repeat: no-repeat;
+            margin: 0 auto;
+        }
+        .featured-product-detail { // truncate text from up to 6 lines
+            display: -webkit-box;
+            max-width: 200px;
+            -webkit-line-clamp: 4;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+      }
+      @media screen and (min-width: 992px) and (max-width: 1199px) { 
+        .featured-product {
+            padding: 20px !important;
+            text-align: center;
+        }
+      }
+
+    }
+
+    .product-guarantees {
+        .guarantees-flex {
+            height: 338px;
+            box-shadow: 4px 10px 72px -17px rgba(72,107,198,0.28);
+            -webkit-box-shadow: 4px 10px 72px -17px rgba(72,107,198,0.28);
+            -moz-box-shadow: 4px 10px 72px -17px rgba(72,107,198,0.28);
+            
+            .guarantees-list {
+                background-color: #FFF;
+                border-top-left-radius: 35px;
+                border-bottom-left-radius: 35px;
+                padding: 50px 50px;
+
+                h4 {
+                    font-size: 24px;
+                    font-weight: 700;
+                }
+                ul li {
+                    font-size: 24px;
+                    font-weight: 300;
+                }
+            }
+            .guarantees-photo {
+                width: 260px;
+                background-image: url(../images/natural.jpg);
+                background-size: cover;
+                background-position: center center;
+                background-repeat: no-repeat;
+
+                border-top-right-radius: 35px;
+                border-bottom-right-radius: 35px;
+            }
+        }
+    }
+
+    #reviews {
+        background-color: #E4ECFF;
+        .reviews-img {
+            height: 346px;
+            .reviews-bg-img {
+                height: 100%;
+                width: 100%;
+                background-size: cover;
+                background-position: center center;
+                background-repeat: no-repeat;
+            }
+            #person1 {
+                background-image: url(../images/person1.jpg);
+            }
+            #person2 {
+                background-image: url(../images/person2.jpg);
+            }
+            #person3 {
+                background-image: url(../images/person3.jpg);
+            }
+            #person4 {
+                background-image: url(../images/person4.jpg);
+            }
+            #person5 {
+                background-image: url(../images/person5.jpg);
+            }
+        }
+        .reviews-detail {
+            border-bottom: 0.5px solid #979797;
+            p {
+                font-size: 20px;
+            }
+        }
+        .review-author {
+            p {
+                font-size: 24px;
+                font-weight: 700;
+            }
+            span {
+                color: #606060;
+                font-size: 18px;
+                font-weight: 700;
+            }
+        }
+        .carousel-control {
+            .review-btn {
+                width: 43px;
+                height: 43px;
+                border: 0px;
+                margin-left: 5px;
+                border-radius: 21.5px;
+                background-color: #A0DE95;
+            }
+        }
+    }
+
+    #contact {
+        background-color: #F2F2F2;
+        padding-top: 100px;
+        padding-bottom: 300px;
+        .maps {
+            h1 {
+                font-size: 24px;
+                font-weight: 700;
+            }
+            iframe {
+                border-radius: 10px;
+                border: 5px solid lightgrey !important;
+                // box-shadow: 4px 10px 72px -17px rgba(72,107,198,0.28);
+                // -webkit-box-shadow: 4px 10px 72px -17px rgba(72,107,198,0.28);
+                // -moz-box-shadow: 4px 10px 72px -17px rgba(72,107,198,0.28);
+            }
+        }
+    }
+
+}
+
+
+// FOOTER
+// =========================================
+footer {
+    position: relative;
+    height: 600px;
+    background-color: #272727;
+
+    .contact-form {
+        position: absolute;
+        width: 100%;
+        margin-top: -300px;
+        .contact-form-card {
+            box-shadow: 4px 0px 55px -2px rgba(0,0,0,0.24);
+            -webkit-box-shadow: 4px 0px 55px -2px rgba(0,0,0,0.24);
+            -moz-box-shadow: 4px 0px 55px -2px rgba(0,0,0,0.24);
+            border-radius: 20px;
+            .our-form {
+                background-color: #FFF;
+                border-top-left-radius: 20px;
+                border-bottom-left-radius: 20px;
+                button {
+                    border-radius: 0;
+                    width: 100px;
+                }
+            }
+            .socials {
+                position: relative;
+                width: 356px;
+                background-color: #69945D;
+                color: #FFF;
+                border-top-right-radius: 20px;
+                border-bottom-right-radius: 20px;
+                .socials-bottom {
+                    position: absolute;
+                    bottom: 0;
+                    h4 {
+                        font-weight: 700;
+                        font-size: 20px;
+                    }
+                    ul li a i {
+                        color: #FFF;
+                        font-size: 24px;
+                    }
+                }
+            }
+        }
+    }
+
+    .footer-trench {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+
+        .footer-content {
+            font-family: 'Inria Sans';
+            color: #FFF;
+            p {
+                margin: 0;
+                font-size: 18px;
+            }
+        }
+    }
+
+}

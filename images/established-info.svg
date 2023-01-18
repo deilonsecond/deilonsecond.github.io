@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1004.649" height="1103.862" viewBox="0 0 1004.649 1103.862">
+  <g id="established-info" transform="translate(-1578.717 -144.774)">
+    <g id="ribbon">
+      <path id="Path_11" data-name="Path 11" d="M1883.717,566.909V1149.9l502.325,235.078V566.909Z" transform="translate(-305 -136.345)" fill="#4f9f40"/>
+      <path id="Path_12" data-name="Path 12" d="M2386.042,566.909V1149.9l-502.325,235.078V566.909Z" transform="translate(197.325 -422.136)" fill="#72b566"/>
+    </g>
+    <g id="established-in">
+      <text id="_2017" data-name="2017" transform="translate(1653.196 793.5)" fill="#fff" font-size="157" font-family="Constantia-Bold, Constantia" font-weight="700"><tspan x="0" y="149">2017</tspan></text>
+      <text id="Established_in" data-name="Established in" transform="translate(1653.196 490.55)" fill="#fff" font-size="157" font-family="Constantia-Bold, Constantia" font-weight="700"><tspan x="0" y="149">Established </tspan><tspan x="0" y="299">in</tspan></text>
+    </g>
+  </g>
+</svg>
