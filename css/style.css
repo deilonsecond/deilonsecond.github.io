@@ -24,6 +24,15 @@ header .welcome-section h1 {
   font-size: 64px;
   line-height: 0.6;
 }
+@media screen and (min-width: 0px) and (max-width: 575px) {
+  header .welcome-section h1 {
+    font-size: 40px !important;
+    text-align: center;
+  }
+  header .welcome-section .business-tagline img {
+    margin: 0 !important;
+  }
+}
 @media screen and (min-width: 992px) and (max-width: 1199px) {
   header .welcome-section h1 {
     font-size: 55px;
@@ -37,7 +46,21 @@ header .welcome-section .business-tagline {
     display: block !important;
   }
 }
+@media screen and (min-width: 0px) and (max-width: 991px) {
+  header .welcome-section h1 {
+    font-size: 50px;
+  }
+  header .welcome-section .company-group img {
+    width: 100% !important;
+    height: 200px !important;
+  }
+}
 
+@media screen and (min-width: 0px) and (max-width: 991px) {
+  header {
+    height: auto;
+  }
+}
 main {
   font-family: "Inria Sans";
 }
@@ -131,6 +154,11 @@ main .product-guarantees .guarantees-flex .guarantees-list ul li {
   font-size: 24px;
   font-weight: 300;
 }
+@media screen and (min-width: 992px) {
+  main .product-guarantees .guarantees-flex .guarantees-list ul li {
+    font-size: 20px;
+  }
+}
 main .product-guarantees .guarantees-flex .guarantees-photo {
   width: 260px;
   background-image: url(../images/natural.jpg);
@@ -139,6 +167,24 @@ main .product-guarantees .guarantees-flex .guarantees-photo {
   background-repeat: no-repeat;
   border-top-right-radius: 35px;
   border-bottom-right-radius: 35px;
+}
+@media screen and (min-width: 0px) and (max-width: 991px) {
+  main .product-guarantees .guarantees-flex .guarantees-list {
+    border-radius: 0;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+  }
+  main .product-guarantees .guarantees-flex .guarantees-list ul li {
+    font-size: 18px;
+  }
+  main .product-guarantees .guarantees-flex .guarantees-photo {
+    width: 100%;
+    border-radius: 0;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+  }
 }
 main #reviews {
   background-color: #E4ECFF;
@@ -250,6 +296,21 @@ footer .contact-form .contact-form-card .socials .socials-bottom ul li a i {
   color: #FFF;
   font-size: 24px;
 }
+@media screen and (min-width: 0px) and (max-width: 991px) {
+  footer .contact-form .contact-form-card .our-form {
+    border-radius: 0;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+  footer .contact-form .contact-form-card .socials {
+    width: 100%;
+    padding-top: 70px !important;
+    padding-bottom: 70px !important;
+    border-radius: 0;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+}
 footer .footer-trench {
   position: absolute;
   bottom: 0;
@@ -263,4 +324,10 @@ footer .footer-trench .footer-content {
 footer .footer-trench .footer-content p {
   margin: 0;
   font-size: 18px;
+}
+@media screen and (min-width: 0px) and (max-width: 575px) {
+  footer .footer-trench .footer-content img {
+    width: 100px;
+    height: 30px;
+  }
 }/*# sourceMappingURL=style.css.map */

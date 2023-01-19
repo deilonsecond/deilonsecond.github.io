@@ -19,19 +19,19 @@
 </head>
 <body>
     
-    <header>
+    <header id="home">
 
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <nav class="mt-5">
+                    <nav class="mt-5 d-none d-md-block sticky-top">
                         <ul class="list-unstyled list-inline d-flex justify-content-center align-items-center">
-                          <li class="list-inline-item me-4"><a href="#">Home</a></li>
-                          <li class="list-inline-item me-4"><a href="#">Company</a></li>
-                          <li class="list-inline-item me-4"><a href="#">Services</a></li>
-                          <li class="list-inline-item me-4"><a href="#"><img src="images/header-logo.svg" alt="" srcset=""></a></li>
-                          <li class="list-inline-item me-4"><a href="#">Reviews</a></li>
-                          <li class="list-inline-item me-4"><a href="#">Contact</a></li>
+                          <li class="list-inline-item me-4"><a href="#home">Home</a></li>
+                          <li class="list-inline-item me-4"><a href="#company">Company</a></li>
+                          <li class="list-inline-item me-4"><a href="#services">Services</a></li>
+                          <li class="list-inline-item me-4"><a href="#home"><img src="images/header-logo.svg" alt="" srcset=""></a></li>
+                          <li class="list-inline-item me-4"><a href="#reviews">Reviews</a></li>
+                          <li class="list-inline-item me-4"><a href="#contact">Contact</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -45,13 +45,13 @@
                         <h1>Pigang Tayabas</h1><br>
                         <h1>Agri Services</h1><br>
                         <h1>Inc.</h1><br>
-                        <div class="business-tagline d-flex">
-                            <p>Here's to 9 years of Bringing Freshness to your table</p>
+                        <div class="business-tagline d-flex flex-column align-items-center align-items-md-start">
+                            <p class="text-center text-md-start">Here's to 9 years of Bringing Freshness to your table</p>
                             <img src="images/established-info.png" class="me-5" width="157px" height="171px" alt="" srcset="">
                         </div>
                     </div>
-                    <div class="col-12 col-lg-6 col-md-12 col-sm-12 text-center">
-                        <img src="images/company-groupie-1.png" class="img-fluid" alt="" srcset="">
+                    <div class="col-12 col-lg-6 col-md-12 col-sm-12 text-center mb-5">
+                        <img class="company-group d-none d-md-block mx-auto" src="images/company-groupie-1.png" class="img-fluid" alt="" srcset="">
                     </div>
                 </div>
             </div>
@@ -151,12 +151,12 @@
             <div class="services-detail">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-lg-6 col-md-12">
                             <div class="services-p py-5">
                                 <p>Our Purees are processed from fruits directly after harvest. We achieve this by positioning our processing plants near farm-gate to ensure freshness and consistency of supply while dealing directly with farmers to eliminate the middleman and deliver good quality at competitive rates.</p>
                             </div>
                         </div>
-                        <div class="col-md-6" >
+                        <div class="col-lg-6 col-md-12">
                             <div id="carouselExampleAutoplaying" class="carousel slide carousel-fade" data-bs-ride="carousel">
                                 <div class="carousel-inner">
                                   <div class="carousel-item active">
@@ -201,7 +201,7 @@
                                 <div class="featured-product-img" style="background-image: url(images/fruit-pomelo.png)"></div>
                                 <h4 class="featured-product-title my-3">Pomelo</h4>
                                 <p class="featured-product-detail mt-3 mx-auto">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                    Pomelo is a rich source of vitamin C, antioxidants, and dietary fibers. Vitamin C is important for maintaining a healthy immune system, while antioxidants can help protect the body against damage from free radicals. The dietary fibers in pomelo can aid in digestion and promote feelings of fullness.
                                 </p>
                             </div>
                         </div>
@@ -210,7 +210,7 @@
                                 <div class="featured-product-img" style="background-image: url(images/fruit-calamansi.png)"></div>
                                 <h4 class="featured-product-title my-3">Calamansi</h4>
                                 <p class="featured-product-detail mt-3 mx-auto">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                    Kalamansi is a good source of vitamin C and antioxidants. Vitamin C is important for maintaining a healthy immune system and promoting healthy skin. The antioxidants found in Kalamansi can also help protect the body from damage from free radicals.
                                 </p>
                             </div>
                         </div>
@@ -219,7 +219,7 @@
                                 <div class="featured-product-img" style="background-image: url(images/fruit-pineapple.png)"></div>
                                 <h4 class="featured-product-title my-3">Pineapple</h4>
                                 <p class="featured-product-detail mt-3 mx-auto">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                    Pineapple is a good source of vitamin C, manganese, and bromelain. Vitamin C is important for maintaining a healthy immune system, and manganese is important for bone health. Bromelain is an enzyme that can aid in digestion, and may also have anti-inflammatory properties.
                                 </p>
                             </div>
                         </div>
@@ -228,7 +228,7 @@
                                 <div class="featured-product-img" style="background-image: url(images/fruit-guyabano.png)"></div>
                                 <h4 class="featured-product-title my-3">Guyabano</h4>
                                 <p class="featured-product-detail mt-3 mx-auto">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                    Guyabano is a good source of vitamin C, antioxidants and dietary fibers. Vitamin C is important for maintaining a healthy immune system, while antioxidants can help protect the body against damage from free radicals. The dietary fibers found in guyabano can aid in digestion and promote feelings of fullness. It is also believed to have anti-cancer properties, however this is not yet confirmed by scientific studies.
                                 </p>
                             </div>
                         </div>
@@ -245,7 +245,7 @@
                                 <div class="featured-product-img" style="background-image: url(images/puree-watermelon.png)"></div>
                                 <h4 class="featured-product-title my-3">Watermelon Puree</h4>
                                 <p class="featured-product-detail mt-3 mx-auto">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                    Watermelon puree is a good source of hydration, Vitamin C, Vitamin A, antioxidants and amino acids. Watermelon is composed of 92% water and is a great way to stay hydrated and refreshed. Vitamin C is important for maintaining a healthy immune system, while Vitamin A is important for maintaining healthy eyes and skin. Watermelon is also a good source of antioxidants that may help protect the body from damage from free radicals. Additionally, the amino acids found in watermelon can help reduce muscle soreness and improve recovery after exercise.
                                 </p>
                             </div>
                         </div>
@@ -254,7 +254,7 @@
                                 <div class="featured-product-img" style="background-image: url(images/puree-carrot.png)"></div>
                                 <h4 class="featured-product-title my-3">Carrot Puree</h4>
                                 <p class="featured-product-detail mt-3 mx-auto">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                    Carrot puree is a good source of Vitamin A, Vitamin K, dietary fibers and antioxidants. Vitamin A is important for maintaining healthy eyes and skin, and Vitamin K is important for blood clotting and bone health. The dietary fibers in carrots can aid in digestion and promote feelings of fullness. Carrots are also a good source of antioxidants that may help protect the body from damage from free radicals.
                                 </p>
                             </div>
                         </div>
@@ -263,7 +263,7 @@
                                 <div class="featured-product-img" style="background-image: url(images/puree-avocado.png)"></div>
                                 <h4 class="featured-product-title my-3">Avocado Puree</h4>
                                 <p class="featured-product-detail mt-3 mx-auto">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                    Avocado puree is a good source of healthy fats, potassium, Vitamin K, Vitamin E and dietary fibers. The healthy fats in avocados can help lower cholesterol and promote heart health. Potassium is important for maintaining healthy blood pressure and Vitamin K is important for blood clotting and bone health. Vitamin E is an antioxidant that can help protect the body from damage from free radicals and dietary fibers can aid in digestion and promote feelings of fullness.
                                 </p>
                             </div>
                         </div>
@@ -272,7 +272,7 @@
                                 <div class="featured-product-img" style="background-image: url(images/puree-guyabano.png)"></div>
                                 <h4 class="featured-product-title my-3">Guyabano Puree</h4>
                                 <p class="featured-product-detail mt-3 mx-auto">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                    Guyabano puree is a good source of Vitamin C, dietary fibers, and antioxidants. Vitamin C is important for maintaining a healthy immune system and antioxidants can help protect the body from damage from free radicals. The dietary fibers in guyabano can aid in digestion and promote feelings of fullness. It is also believed to have anti-cancer properties, however this is not yet confirmed by scientific studies.
                                 </p>
                             </div>
                         </div>
@@ -284,7 +284,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-8 offset-md-2">
-                            <div class="guarantees-flex mt-3 d-flex">
+                            <div class="guarantees-flex mt-3 d-flex flex-column flex-lg-row flex-xl-row">
                                 <div class="guarantees-list flex-fill">
                                     <h4 class="mb-3">Product Advantage</h4>
                                     <ul class="list-unstyled">
@@ -458,7 +458,7 @@
         <div class="contact-form">
             <div class="container">
                 <div class="col-md-10 offset-md-1">
-                    <div class="contact-form-card d-flex flex-row">
+                    <div class="contact-form-card d-flex flex-column flex-lg-row flex-xl-row">
                         <div class="our-form flex-fill p-5">
                             <h4 class="mb-3">Contact Us</h4>
                             <form>
@@ -479,11 +479,11 @@
                         </div>
                         <div class="socials p-4">
                             <div class="socials-top text-center">
-                                <p><i class="bi bi-envelope"></i> &nbsp; admin@ptasservices.com</p>
+                                <p class="text-center"><i class="bi bi-envelope"></i> &nbsp; admin@ptasservices.com</p>
                             </div>
                             <div class="socials-bottom py-2 text-center w-100">
                                 <h4 class="mb-2">Our Socials</h4>
-                                <ul class="list-unstyled list-inline">
+                                <ul class="list-unstyled list-inline mx-auto">
                                     <li class="list-inline-item"><a href="https://www.facebook.com/ptasservices/?ref=aymt_homepage_panel"><i class="bi bi-facebook"></i></a></li>
                                     <li class="list-inline-item"><a href="https://www.instagram.com/ptasservices/"><i class="bi bi-instagram"></i></li>
                                     <li class="list-inline-item"><a href="https://twitter.com/ptasservices"><i class="bi bi-twitter"></i></li>
